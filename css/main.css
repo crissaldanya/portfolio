@@ -115,7 +115,7 @@ img.hero-image {
     grid-template-columns: 50% 50%;
     grid-gap: 8px;
     justify-content: center;
-    /* grid-template-rows: 40% 60%; */
+    grid-template-rows: 400px;
 }
 
 .work .container {
@@ -144,15 +144,14 @@ img.hero-image {
   padding: 10px 0;  
   width: 237px;
   height: 58px;
-  font-family: DMSerifDisplay;
+  font-family: 'DM Serif Display', serif;
   font-size: 21px;
   color: #58626d;
 }
 
 
 .textowork-2 {
-    
-    padding: 10px 10px 10px 10px;
+    padding: 40px 10px 10px 40px;
 }
 .textowork-2 a {
     color: #ffffff; 
@@ -161,7 +160,7 @@ img.hero-image {
   padding: 10px 0;  
   width: 237px;
   height: 58px;
-  font-family: DMSerifDisplay;
+  font-family: 'DM Serif Display', serif;
   font-size: 21px;
   color: #ffffff;
 }
@@ -177,7 +176,7 @@ img.hero-image {
     align-items: flex-start;
 }
 .textowork-3 {
-    padding: 10px 10px 10px 30px;
+    padding: 40px 10px 10px 40px;
 }
 .textowork-3 a {
     color: #ffffff; 
@@ -186,7 +185,7 @@ img.hero-image {
   padding: 10px 0;  
   width: 237px;
   height: 58px;
-  font-family: DMSerifDisplay;
+  font-family: 'DM Serif Display', serif;
   font-size: 21px;
   color: #ffffff;
 }
