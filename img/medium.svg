@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>twitter copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="V1--Landing-Page---Mid-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-623.000000, -2289.000000)">
+            <g id="Group-2" transform="translate(357.000000, 2289.000000)">
+                <g id="twitter-copy" transform="translate(266.000000, 0.000000)">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="22" cy="22" r="21"></circle>
+                    <g id="iconmonstr-medium-1" transform="translate(10.000000, 12.000000)" fill="#FFFFFF">
+                        <path d="M2.543,3.103 L0.303,0.403 L0.303,0 L7.261,0 L12.639,11.795 L17.367,0 L24,0 L24,0.403 L22.084,2.24 C21.919,2.366 21.837,2.573 21.871,2.778 L21.871,16.276 C21.837,16.48 21.919,16.687 22.084,16.813 L23.955,18.65 L23.955,19.053 L14.543,19.053 L14.543,18.65 L16.482,16.768 C16.672,16.578 16.672,16.522 16.672,16.231 L16.672,5.321 L11.283,19.009 L10.555,19.009 L4.28,5.321 L4.28,14.495 C4.228,14.88 4.356,15.269 4.627,15.547 L7.148,18.605 L7.148,19.009 L0,19.009 L0,18.605 L2.521,15.547 C2.791,15.268 2.911,14.877 2.846,14.495 L2.846,3.887 C2.876,3.592 2.763,3.301 2.543,3.103 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

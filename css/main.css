@@ -2,9 +2,6 @@ body {
     background: rgb(255, 255, 255);
     font-family: 'DM Serif Text', serif;
     font-family: 'DM Serif Display', serif;
-    
-
-
 }
 
 @font-face {
@@ -14,8 +11,6 @@ body {
     src: url(fonts/AvenirNext-DemiBold.ttf);
     font-family: avenirnext-regular;
     src: url(fonts/AvenirNext-Regular.ttf);
-
-
 }
 
 h1 {
@@ -40,7 +35,10 @@ a {
 
 }
 
-#link { color: #fab6bc; } 
+a {
+    color: #fab6bc;
+    font-family: avenirnext-bold;
+} 
 
 .main-navigation {
      max-width: 100%;
@@ -62,7 +60,6 @@ a {
 #menu {
     display: flex;
     position: relative;
-
 }
 
 
@@ -96,6 +93,14 @@ a {
 
 }
 
+.work {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    
+}
 
 
 
@@ -118,33 +123,68 @@ img.hero-image {
 .work-1 {
     display: flex;
     align-items: flex-end;
-    max-width: 1000px;
-    height: 375px;
-    background-color: #fab6bc
+    padding: 20px 200px 0 0;
+    /* max-width: 1000px; 
+    height: 375px;*/
+    background-color: #fab6bc;
 }
+
+.textowork-1 {
+    height: 300px;
+    margin-left: 40px;
+}
+.textowork-1 a {
+    color: #58626d; 
+}
+.textowork-1 p {
+  padding: 10px 0;  
+  width: 237px;
+  height: 58px;
+  font-family: DMSerifDisplay;
+  font-size: 21px;
+  color: #58626d;
+}
+
 
 .work-background {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0; 
+    padding: 10px 0 0 0; 
     
 
 }
 
 .work-background .work-2,
 .work-background .work-3 {
-    padding: 0 40px 0 0;
+    padding: 20px 40px 0 0;
     width: 50%;
 
 }
-
+.textowork-2 {
+    
+    padding: 10px 10px 10px 10px;
+}
+.textowork-2 a {
+    color: #ffffff; 
+}
+.textowork-2 p {
+  padding: 10px 0;  
+  width: 237px;
+  height: 58px;
+  font-family: DMSerifDisplay;
+  font-size: 21px;
+  color: #ffffff;
+}
 .work-2 {
-    width: 346px;
-    height: 459px;
+    /* width: 346px; 
+    height: 459px;*/
     background-color: #7daec7;
+    display: grid;
+    grid-area: span;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     margin-right: 10px
     
     
@@ -152,8 +192,8 @@ img.hero-image {
 }
 
 .work-3 {
-    width: 346px;
-    height: 459px;
+    /* width: 346px; 
+    height: 459px;*/
     background-color: #58626d;
     display: flex;
     align-items: flex-end;
@@ -177,29 +217,21 @@ img.hero-image {
 
 
 h3 {
-
     font-size: 30px;
     text-align: center;
     color: #58626d;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-
 }
 
 h4 {
-
 font-family: Aavenirnext-regular;
   font-size: 13px;
   font-weight: 500;
   text-align: center;
   color: #58626d;
-  
-
 }
-
-
-
 
 .rrss {
     background-color: #58626d; 
@@ -209,19 +241,17 @@ font-family: Aavenirnext-regular;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .rrss p{
     color: white;
-    margin-bottom: 20px
-
+    margin-bottom: 20px;
+    letter-spacing: 4px;
 }
 
 .rrss-icon img{
     height: 44px;
-
+    padding: 10px;
 }
 
 .rrss-icon {
