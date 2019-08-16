@@ -266,3 +266,86 @@ font-family: Aavenirnext-regular;
     align-content: flex-end;
     justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+.hero-image {
+    display: none;
+}
+.feature-background  .hero-text {
+    width: 100%;
+
+}
+.feature-background .clear {
+
+    padding: 120px 20px 50px;
+}
+.work-1 .mockup-1{
+    width: 60%;
+    height: auto;
+}
+.textowork-1 p {
+max-width: 100%;
+width: 100%;
+height: auto;
+}
+.work-2 .mockup-2{
+    width: 70%;
+    height: auto;
+}
+.textowork-2 p {
+max-width: 100%;
+width: 100%;
+height: auto;
+}
+.work-3 .mockup-3{
+    max-width: 100%;
+    width: 70%;
+    height: auto;
+    margin-left: 0; 
+}
+.textowork-3 p {
+max-width: 100%;
+width: 100%;
+height: auto;
+
+}
+
+.box-grid-wrapper {
+    grid-template-columns: 100%;
+    /* grid-template-rows: repeat(4, 400px); */
+}
+
+.work-1, .work-2, .work-3{
+    grid-column:1;
+}
+.work-1{
+    grid-row:1; 
+}
+.work-2{
+    grid-row:2; 
+}
+.work-3{
+    grid-row:; 
+}
+}
+
+@media screen and (max-width: 637px) {
+ 
+    #menu {
+        font-size: 80%;
+    }
+    .main-navigation {
+   
+       padding: 10px;
+       background-color: white;
+
+    }
+
+       .main-navigation li {
+        margin: 10px;
+
+    }
+  
+
+
+}
